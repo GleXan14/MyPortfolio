@@ -1,0 +1,24 @@
+.navbar-pos {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+}
+
+.header-pos {
+  position: relative;
+  width: 100%;
+  padding-top: 125px;
+}
+
+.inner-pos {
+  position: relative;
+  width: 100%;
+  padding-top: 100px;
+}
+
+.inner-pos__about {
+  padding-top: 125px;
+  padding-bottom: 100px;
+}
+/*# sourceMappingURL=app.component.css.map */

@@ -1,0 +1,16 @@
+<div id="footerContainer">
+    <div class="content py-4">
+        <h1 class="my-4">Angel Peña</h1>
+        <div class="social my-4">
+            <a *ngFor="let social of socials"
+            href="{{social.link}}"
+            target="_blank"><i class="{{social.iconCode}}"></i></a>
+        </div>
+        <div class="contact my-4">
+            <span><strong>Email:</strong>{{email}}</span>
+            <span><strong>Phone Number:</strong>{{phoneNumber}}</span>
+        </div>
+    </div>
+
+    <p id="copyright">&#169; 2021 copyright all right reserverd</p>
+</div>

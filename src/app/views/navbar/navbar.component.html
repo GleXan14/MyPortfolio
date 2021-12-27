@@ -1,0 +1,24 @@
+
+
+
+<mat-toolbar 
+color="primary"
+style="height: 10vh;">
+    <h1>Angel Peña</h1>
+    <span class="spacer"></span>
+    <button 
+    *ngIf="isSmallWindow"
+    mat-icon-button 
+    (click)="sidenav.toggle()">
+        <mat-icon *ngIf="!sidenav.opened">menu</mat-icon>
+        <mat-icon *ngIf="sidenav.opened">close</mat-icon>
+    </button>
+    <div *ngIf="!isSmallWindow">
+        <a mat-button class="mx-2" href="#home"><h5>Home</h5></a>
+        <a mat-button class="mx-2" href="#about"><h5>About</h5></a>
+        <a mat-button class="mx-2" href="#skill"><h5>Skill</h5></a>
+        <a mat-button class="mx-2" href="#project"><h5>Projects</h5></a>
+        <a mat-button class="mx-2" href="#contact"><h5>Contact</h5></a>
+    </div>
+    
+</mat-toolbar>

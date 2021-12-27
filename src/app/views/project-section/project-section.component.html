@@ -1,0 +1,41 @@
+<div class="container" id="projectsSection">
+    <div class="section-title">
+        <h1>Projects</h1>
+    </div>
+    <div class="row">
+        <div class="col-md-6 col-lg-4  py-2" 
+        *ngFor="let project of projects">
+            <mat-card class="project-card">
+                <mat-card-title>
+                    <h2>{{project.enName}}</h2>
+                </mat-card-title>
+                <img mat-card-image
+                style="height: 200px;"
+                 [src]="project.imageUrl" 
+                 alt="project-image">
+                
+                <mat-card-subtitle class="text-center">
+                    <strong>{{project.type}}</strong>
+                </mat-card-subtitle>
+                <mat-card-content>
+                    
+                    <div class="d-flex justify-content-center align-items-center">
+                        <h3 class="mx-4" *ngFor="let tech of project.techs">
+                            <i class="{{getIcon(tech)}} icon__{{tech}}"></i>
+                        </h3>
+                    </div>
+                </mat-card-content>
+                <mat-card-actions class="d-flex justify-content-around align-items-center mb-2">
+                    <a mat-raised-button color="primary"
+                    class="buttons"
+                     [href]="project.liveUrl">Live</a>
+                    <a mat-raised-button color="primary"
+                    class="buttons"
+                     [href]="project.githubUrl">Github</a>
+                </mat-card-actions>
+
+            </mat-card>
+        </div>
+
+    </div>
+</div>

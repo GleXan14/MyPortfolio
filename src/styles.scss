@@ -1,1 +1,467 @@
 /* You can add global styles to this file, and also import other style files */
+//imports
+@import '~bootstrap/scss/bootstrap';
+@import '~bootstrap/scss/bootstrap-reboot';
+@import '~bootstrap/scss/bootstrap-grid';
+
+//variables
+$blue: #3f51b5;
+$blueHover: #3f51b5a2;
+
+
+//functions
+@mixin flex($justify, $align) {
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+@mixin borderDev($color) {
+    border: 2px solid $color;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.my-border{
+    @include borderDev(red);
+}
+
+.spacer {
+    flex: 1 1 auto;
+}
+
+.bg-blue{
+    background: $blue;
+}
+
+.icon{
+                        
+    &__angular{
+        color: red;
+    }
+    &__react{
+        color: blue;
+    }
+    &__javascript{
+        color: rgb(255, 251, 27);
+    }
+    &__css{
+        color: blue;
+    }
+    &__node{
+        color: green;
+    }
+    &__sass{
+        color: pink;
+    }
+    &__html{
+        color: orange;
+    }
+    &__git{
+        color: red;
+    }
+    &__github{
+        color: black;
+    }
+    &__bootstrap{
+        color: purple;
+    }
+    &__terminal{
+        color: black;
+    }
+}
+
+.section-title{
+    position: relative;
+    width: 100%;
+    @include flex(center, center);
+    flex-direction: column;
+    
+    
+    h1{
+        font-size: 2rem;
+        font-weight: bold;
+        letter-spacing: 2pt;
+        color: $blue;
+    }
+
+}
+
+.sidenavSection{
+    a{
+        color: white;
+        text-decoration: none;
+        
+        h2{
+            margin: 0 !important;
+        }
+
+        &:hover{
+            color: white;
+        }
+    }
+}
+
+header{
+    position: relative;
+    width: 100%;
+    min-height: 90vh;
+
+    #headerSection{
+        position: relative;
+        
+        .columns{
+            
+            
+            @include flex(center, center);
+            
+    
+            h1{
+                font-size: 5rem;
+                word-break: break-all;
+                line-height: 4rem;
+                letter-spacing: 2pt;
+                strong{
+                    color: $blue;
+                }
+            }
+
+            h2{
+                font-size: 2.2rem;
+                letter-spacing: 2pt;
+            }
+
+            #btnContact{
+                width: 120px;
+                font-size: 1.2rem;
+                &:hover{
+                    background: $blueHover;
+                }
+            }
+    
+            .social{
+                a{
+                    i{
+                        font-size: 2.2rem;
+                        color: $blue;
+                        margin: 0 1rem;
+                    }
+
+                    &:hover{
+                        i{
+                            color: $blueHover;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    a{
+        color: white;
+        text-decoration: none;
+
+        &:hover{
+            color: white;
+        }
+    }
+}
+
+main{
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+    #aboutSection{
+        position: relative;
+       
+        .columns{
+            @include flex(center, center);
+            //@include borderDev(black);
+        }
+
+        mat-card{
+            @include borderDev($blue);
+            text-align: justify;
+
+            mat-card-subtitle{
+                text-align: center;
+                color: $blue;
+            }
+
+            p{
+                font-size: 1rem;
+            }
+
+        }
+    }
+
+    #skillsSection{
+        position: relative;
+
+        
+        mat-card{
+            @include borderDev($blue);
+            
+
+            mat-card-title{
+                text-align: center;
+                color: $blue;
+            }
+
+            p{
+                font-size: 1rem;
+            }
+
+        }
+
+        .ability-card{
+
+            mat-card{
+
+                mat-card-subtitle{
+                    @include flex(center,center);
+
+                    h3{
+                        margin: 0;
+                    }
+                    i{
+                        font-size: 1.5rem;
+                    }
+                }
+            }
+        }
+
+        .tech-card{
+
+            mat-card{
+                //@include flex(center,center);
+                padding: 0 !important;
+                
+
+                mat-card-subtitle{
+                    @include flex(center,center);
+                    margin: 0 !important;
+                    padding: 0.5rem 1rem !important;
+                    
+                    h3, p{
+                        margin: 0;
+                    }
+
+                    i{
+                        font-size: 1.8rem;
+                    }
+
+                    
+
+                    
+                }
+
+                mat-card-content{
+
+                    hr{
+                        position: relative;
+                        height: 10px;
+                        bottom: 0;
+                        left: 0;
+                        background: $blue;
+                    }
+
+                    .percent{
+                        &__angular{
+                            width: 80%;
+                        }
+                        &__react{
+                            width: 65%;
+                        }
+                        &__javascript{
+                            width: 80%;
+                        }
+                        &__css{
+                            width: 70%;
+                        }
+                        &__node{
+                            width: 75%;
+                        }
+                        &__sass{
+                            width: 70%;
+                        }
+                        &__html{
+                            width: 85%;
+                        }
+                    }
+                }
+            }
+        }
+
+       
+
+        .tools-card{
+
+            mat-card{
+                padding: 0 !important;
+
+                mat-card-subtitle{
+                    @include flex(center,center);
+                    margin: 0 !important;
+                    padding: 0.5rem 1rem !important;
+                    
+                    h3{
+                        margin: 0;
+                    }
+
+                    i{
+                        font-size: 1.8rem;
+                    }
+                    
+                }
+            }
+        }
+    }
+
+    #projectsSection{
+        position: relative;
+
+        mat-card{
+            @include borderDev($blue);
+            
+            
+
+            mat-card-title{
+                text-align: center;
+                color: $blue;
+            }
+
+            p{
+                font-size: 1rem;
+            }
+
+        }
+
+        .project-card{
+
+            position: relative;
+
+            mat-card-title{
+                position: relative;
+                height: 60px;
+                
+
+                h2{
+                    position: relative;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 100%;
+                    height: 100%;
+                    
+
+                }
+            }
+           
+            img{
+                border-bottom: 2px solid $blue;
+                border-top: 2px solid $blue;
+            }
+
+            mat-card-subtitle{
+                text-transform: capitalize;
+            }
+
+            mat-card-content{
+                i{
+                    font-size: 1.5rem;
+                }
+            }
+
+            mat-card-actions{
+                a{
+                    width: 40%;
+                    &:hover{
+                        background: $blueHover;
+                    }
+                }
+                
+            }
+        }
+    }
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background: black;
+    color: white;
+
+    #footerContainer{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+
+        .content{
+            position: relative;
+            height: 90%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            h1{
+                font-size: 2rem;
+                font-weight: bold;
+                letter-spacing: 2pt;
+            }
+
+            .social{
+                a{
+                    transition: 0.5s;
+                    i{
+                        font-size: 2rem;
+                        color: white;
+                        margin: 0 1rem;
+                    }
+
+                    &:hover{
+                        i{
+                            color: rgba(255, 255, 255, 0.603);
+                        }
+                    }
+                }
+            }
+
+            .contact{
+                font-size: 1rem;
+               
+                span{
+                    margin: 0 1rem;
+
+                    strong{
+                        margin-right: 0.5rem;
+                    }
+                }
+            }
+        }
+
+        p{
+            position: relative;
+            margin: 0;
+        }
+        
+    }
+}
+
+
+
+

@@ -1,0 +1,43 @@
+{
+    "projects": [
+        {
+            "name_es": "Rastreador de direcciones IP",
+            "name_en": "IP Address Tracker",
+            "type": "experimental",
+            "url_image": "assets/images/ip_address_tracker.png",
+            "url_live": "https://glexan14.github.io/IP-Tracker-Angular",
+            "url_github": "https://github.com/GleXan14/IP-Tracker-Angular",
+            "techs": ["html", "css", "javascript", "angular"]
+
+        },
+        {
+            "name_es": "URL Shortening Landing Page",
+            "name_en": "URL Shortening Landing Page",
+            "type": "experimental",
+            "url_image": "assets/images/url_shorten_page.png",
+            "url_live": "https://glexan14.github.io/URL-shortening-react/",
+            "url_github": "https://github.com/GleXan14/URL-shortening-react",
+            "techs": ["html", "css", "javascript", "react"]
+        },
+        {
+            "name_es": "LoopStudios Landing Page",
+            "name_en": "LoopStudios Landing Page",
+            "type": "experimental",
+            "url_image": "assets/images/loopstudios.png",
+            "url_live": "https://glexan14.github.io/Home-Page-Template/#",
+            "url_github": "https://glexan14.github.io/Home-Page-Template/#",
+            "techs": ["html", "css", "javascript"]
+        },
+        {
+            "name_es": "Primer portafolio",
+            "name_en": "First Portfolio",
+            "type": "experimental",
+            "url_image": "assets/images/first_portfolio.png",
+            "url_live": "https://glexan14.github.io/Angel-portfolio/",
+            "url_github": "https://github.com/GleXan14/Angel-portfolio",
+            "techs": ["html", "css", "javascript"]
+
+        }
+        
+    ]
+}

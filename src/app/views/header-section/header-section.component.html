@@ -1,0 +1,23 @@
+<div class="container" id="headerSection">
+    <div class="d-flex flex-column flex-md-row-reverse">
+        
+        <div class="col-md-12 columns p-5">
+            <div class="col columns flex-column p-2 text-center">
+                <h1 class="my-4">Hi, I'm <strong>Angel Peña</strong></h1>
+                <h2>Web Developer</h2>
+
+                <a mat-raised-button 
+                color="primary" 
+                class="my-4"
+                id="btnContact"
+                href="#contact">Contact</a>
+                <div class="social">
+                    <a *ngFor="let social of socials"
+                    href="{{social.link}}"
+                    target="_blank"><i class="{{social.iconCode}}"></i></a>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>

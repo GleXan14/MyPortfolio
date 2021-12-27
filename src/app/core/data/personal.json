@@ -1,0 +1,20 @@
+{
+    "socials": [
+        {
+            "name": "linkedin",
+            "link": "https://www.linkedin.com/in/angel-pe%C3%B1a-4b5228203/",
+            "iconCode": "fab fa-linkedin"
+        },
+        {
+            "name": "github",
+            "link": "https://github.com/GleXan14",
+            "iconCode": "fab fa-github"
+        }
+    ],
+    "contacts":{
+        "email": "gelanepr@gmail.com",
+        "phoneNumber": "+1 809-905-0102"
+
+    }
+
+}

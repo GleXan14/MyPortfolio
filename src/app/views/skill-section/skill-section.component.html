@@ -1,0 +1,68 @@
+
+<div class="container" id="skillsSection">
+    <div class="section-title">
+        <h1>Skills</h1>
+    </div>
+    <div class="row row-cols-1">
+        <div class="col-md-4 mb-3 py-md-4">
+            <mat-card class="ability-card">
+                <mat-card-title>Abilities</mat-card-title>
+                <mat-card-content>
+                    <mat-card 
+                    *ngFor="let ability of abilities"
+                    class="my-2">
+                        <mat-card-subtitle>
+                            <h3>
+                                <i class="{{ability.icon}}"></i>
+                                 {{getDisplayName(ability.name)}}
+                            </h3>
+                        </mat-card-subtitle>
+                        <mat-card-content>
+                            <p>{{ability.text}}</p>
+                        </mat-card-content>
+                    </mat-card>
+                </mat-card-content>
+            </mat-card>
+        </div>
+        <div class="col-md-4 mb-3 py-md-4">
+            <mat-card class="tech-card">
+                <mat-card-title>Technologies</mat-card-title>
+                <mat-card-content>
+
+                    <mat-card 
+                    class="my-2"
+                    *ngFor="let lang of languages">
+                        <mat-card-subtitle>
+                            <h3>
+                                <i class="{{lang.icon}} icon__{{lang.name}}"></i>
+                                {{getDisplayName(lang.name)}}
+                            </h3>
+                            <!-- <p>{{lang.percent}}%</p> -->
+                        </mat-card-subtitle>
+                        <!-- <mat-card-content>
+                            <hr class="percent__{{lang.name}}">
+                        </mat-card-content> -->
+                    </mat-card>
+                </mat-card-content>
+            </mat-card>
+        </div>
+        <div class="col-md-4 py-md-4">
+            <mat-card class="tools-card">
+                <mat-card-title>Devtools</mat-card-title>
+                <mat-card-content>
+                    <mat-card 
+                    class="my-2"
+                    *ngFor="let tool of devtools">
+                        <mat-card-subtitle>
+                            <h3>
+                                <i class="{{tool.icon}} icon__{{tool.name}}"></i>
+                                {{getDisplayName(tool.name)}}
+                            </h3>
+                        </mat-card-subtitle>
+                    </mat-card>
+                </mat-card-content>
+            </mat-card>
+        </div>
+        
+    </div>
+</div>

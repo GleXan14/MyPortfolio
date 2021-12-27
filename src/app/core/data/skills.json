@@ -1,0 +1,79 @@
+{
+    "skills":[
+        {
+            "type":"framework",
+            "name":"angular",
+            "icon":"fab fa-angular",
+            "percent": 80
+        },
+        {
+            "type":"framework",
+            "name":"react",
+            "icon":"fab fa-react",
+            "percent": 65
+        },
+        {
+            "type":"language",
+            "name":"node",
+            "icon":"fab fa-node",
+            "percent": 75
+        },
+        {
+            "type":"language",
+            "name":"javascript",
+            "icon":"fab fa-js",
+            "percent": 80
+        },
+        {
+            "type":"language",
+            "name":"html",
+            "icon":"fab fa-html5",
+            "percent": 85
+        },
+        {
+            "type":"language",
+            "name":"css",
+            "icon":"fab fa-css3-alt",
+            "percent": 70
+        }, 
+        {
+            "type":"language",
+            "name":"sass",
+            "icon":"fab fa-sass",
+            "percent": 70
+        },
+        {
+            "type":"ability",
+            "name":"front-end",
+            "icon": "fas fa-code",
+            "text":"Responsive websites built for an optimal user experience."
+        },
+        {
+            "type":"ability",
+            "name":"back-end",
+            "icon": "fas fa-server",
+            "text":"Knowledge of REST API construction using NodeJs"
+        },
+        {
+            "type":"devtools",
+            "name":"git",
+            "icon":"fab fa-git-alt"
+        },
+        {
+            "type":"devtools",
+            "name":"github",
+            "icon":"fab fa-github-square"
+        },
+        {
+            "type":"devtools",
+            "name":"bootstrap",
+            "icon":"fab fa-bootstrap"
+        },
+        {
+            "type":"devtools",
+            "name":"terminal",
+            "icon":"fas fa-terminal"
+        }
+        
+    ]
+}
