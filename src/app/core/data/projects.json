@@ -20,6 +20,16 @@
             "techs": ["html", "css", "javascript", "react"]
         },
         {
+            "name_es": "Pagina de producto Ecommerce",
+            "name_en": "Ecommerce Product Page",
+            "type": "experimental",
+            "url_image": "assets/images/ecommerce_product_page.png",
+            "url_live": "https://glexan14.github.io/EcommerceProductPage/",
+            "url_github": "https://github.com/GleXan14/EcommerceProductPage",
+            "techs": ["html", "css", "javascript", "angular"]
+
+        },
+        {
             "name_es": "LoopStudios Landing Page",
             "name_en": "LoopStudios Landing Page",
             "type": "experimental",
