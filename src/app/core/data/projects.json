@@ -1,6 +1,16 @@
 {
     "projects": [
         {
+            "name_es": "Pronostico del clima",
+            "name_en": "Weather Report App",
+            "type": "experimental",
+            "url_image": "assets/images/weather_report.png",
+            "url_live": "https://glexan14.github.io/weather-report-app/",
+            "url_github": "https://github.com/GleXan14/weather-report-app",
+            "techs": ["html", "css", "javascript", "react"]
+
+        },
+        {
             "name_es": "Rastreador de direcciones IP",
             "name_en": "IP Address Tracker",
             "type": "experimental",

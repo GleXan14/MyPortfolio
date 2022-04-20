@@ -28,7 +28,7 @@ export class SkillUtilService {
         return "NodeJs";
         
       case 'javascript':
-        return "JavaScript";
+        return "JavaScript/TypeScript";
         
       case 'front-end':
         return "Front-end Development";
