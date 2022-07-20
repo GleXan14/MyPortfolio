@@ -7,7 +7,27 @@
             "url_image": "assets/images/weather_report.png",
             "url_live": "https://glexan14.github.io/weather-report-app/",
             "url_github": "https://github.com/GleXan14/weather-report-app",
-            "techs": ["html", "css", "javascript", "react"]
+            "techs": ["html", "sass", "javascript", "react"]
+
+        },
+        {
+            "name_es": "Libreria de peliculas web",
+            "name_en": "React Movies Web",
+            "type": "experimental",
+            "url_image": "assets/images/react_movies.png",
+            "url_live": "https://glexan14.github.io/react-movies-web/",
+            "url_github": "https://github.com/GleXan14/react-movies-web",
+            "techs": ["html", "sass", "javascript", "react"]
+
+        },
+        {
+            "name_es": "Pagina de producto Ecommerce",
+            "name_en": "Ecommerce Product Page",
+            "type": "experimental",
+            "url_image": "assets/images/ecommerce_product_page.png",
+            "url_live": "https://glexan14.github.io/EcommerceProductPage/",
+            "url_github": "https://github.com/GleXan14/EcommerceProductPage",
+            "techs": ["html", "css", "javascript", "angular"]
 
         },
         {
@@ -30,16 +50,6 @@
             "techs": ["html", "css", "javascript", "react"]
         },
         {
-            "name_es": "Pagina de producto Ecommerce",
-            "name_en": "Ecommerce Product Page",
-            "type": "experimental",
-            "url_image": "assets/images/ecommerce_product_page.png",
-            "url_live": "https://glexan14.github.io/EcommerceProductPage/",
-            "url_github": "https://github.com/GleXan14/EcommerceProductPage",
-            "techs": ["html", "css", "javascript", "angular"]
-
-        },
-        {
             "name_es": "LoopStudios Landing Page",
             "name_en": "LoopStudios Landing Page",
             "type": "experimental",
@@ -47,16 +57,6 @@
             "url_live": "https://glexan14.github.io/Home-Page-Template/#",
             "url_github": "https://glexan14.github.io/Home-Page-Template/#",
             "techs": ["html", "css", "javascript"]
-        },
-        {
-            "name_es": "Primer portafolio",
-            "name_en": "First Portfolio",
-            "type": "experimental",
-            "url_image": "assets/images/first_portfolio.png",
-            "url_live": "https://glexan14.github.io/Angel-portfolio/",
-            "url_github": "https://github.com/GleXan14/Angel-portfolio",
-            "techs": ["html", "css", "javascript"]
-
         }
         
     ]
